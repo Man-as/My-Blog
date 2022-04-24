@@ -1,0 +1,57 @@
+.login{
+    height: calc(100vh-50px);
+    border-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+    ), url("https://freepikpsd.com/file/2019/10/login-background-images-png-2-Transparent-Images.png");
+    background-size: cover;
+}
+
+.logintitle{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+.loginform{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginform>label{
+    margin:10px 0;
+
+}
+
+.logininput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.loginregisterbutton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
